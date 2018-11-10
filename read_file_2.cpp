@@ -19,7 +19,7 @@ int main(int argc, char** argv)
   bucky.open("mydata.dat");
 
   if(!bucky.is_open()){
-    exit(EXIT_FAILURE);
+    exit(EXIT_FAILURE);/**/
   }
 
   int nnz, n, m;
