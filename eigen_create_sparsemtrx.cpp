@@ -19,7 +19,7 @@ int main(int argc, char** argv)
 
   std::vector<T> trp;
   trp.reserve(nnz);
-  //SpMat mat(row,col);
+  //SpMat mat(row,col);//branch
   for (m = 1;m<nnz+1;m++){
     trp.push_back(T(i[m-1]-1,j[m-1]-1,val[m-1]));
     //mat.insert(i[m-1]-1,j[m-1]-1)=val[m-1];
